@@ -1,0 +1,15 @@
+1 gradle clean assemble (api-common folder)
+
+2 gradle clean assemble (api-service)
+
+3 /etc/rc.d/init.d/postgresql-11 restart  (on 1.5 using ssh and sudo su)
+
+4 export JASYPT_ENCRYPTOR_PASSWORD=mySecretKey@123 (rest-API folder)
+
+5 gradle bootrun (rest-API folder)
+
+
+//.db file changes as per local environment (to run on local) **
+//2 entries in host file
+//gradlew.properties file config and java path
+
